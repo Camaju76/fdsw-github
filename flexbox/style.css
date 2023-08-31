@@ -1,0 +1,104 @@
+*,
+::before,
+::after {
+padding: 0;
+margin: 0;
+box-sizing: border-box; 
+}
+.container {
+    display: flex;
+    border: solid gray 1px;
+    height: 100vh;
+
+}
+.containerIzq {
+    border: solid gray 1px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+;
+}
+
+.containerDer { 
+    border:solid gray 1px;
+    width: 80%;
+}
+.barra {
+    border: solid gray 1px;
+    /* height: vh; */
+    display: flex;
+
+    /* justify-content: space-between; */
+    width: 100%;
+    padding: 1px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.boton {
+   display: flex;
+    border: solid gray 1px;
+    height: 70%;
+    padding: 10px 20px; 
+}
+.boton button {
+display: block;
+width: 200px;
+height: 80px;
+color: black;
+background-color:rgb(204, 157, 243);
+border-radius: 10px;
+}
+
+.barra_perfil {
+    display: flex;
+    border: solid gray 1px;
+    width: 80%;
+}
+.barra_perfil img {
+    margin-right: 0px;
+   
+
+}
+.barra_perfil_info{
+   padding: 20px 20px;
+}
+.barra_icono {
+    border:solid gray 1px;
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+.barra_icono i {
+   padding: 2px;
+}
+.contactoCard {
+width: 96%;
+height: 100px;
+display: flex;
+-webkit-box-shadow: 6px 12px 11px -3px rgba(0,0,0,0.61);
+-moz-box-shadow: 6px 12px 11px -3px rgba(0,0,0,0.61);
+box-shadow: 6px 12px 11px -3px rgba(0,0,0,0.61);
+justify-content: flex-start;
+padding: 10px;;
+}
+.contactoCard_info img {
+width: 50px;
+height: 50px;
+margin-right: 50px;
+}
+.contactoCard_info {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 10%;
+}
+.containerDer {
+    background-color: gainsboro;
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.containerDer img {
+    width: 20rem;
+    height: 20rem;
+}
